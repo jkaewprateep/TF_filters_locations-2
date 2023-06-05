@@ -2,6 +2,7 @@
 🧸💬 Tensorflow for object locators, filters and convolution is enough for tracking objects from the plain background and we plan to add DCT ( discrete frequency transform for colours image ). This method is a filters method and different than our previous method detects an object by convolution and scaling or scanning the image for object similarity.
 
 #### 🐑💬 The true skills of AI is problem transformation, this is parameters for snakes games. ####
+🐬🥀💬 Intercepts is harder to determine the target objective but it benefits from it based on the shortest path always on the side of the basements to protect.
 ```
 coeff_01 = ball_y_value - player_y_value
 coeff_02 = ball_x_value - player_x_value
@@ -11,6 +12,7 @@ coeff_05 = player_y_value - ball_y_value
 ```
 
 #### 🐑💬 Filters - location on plain background ####
+🐬🥀💬 The squeeze method is faster because with matrix manipulation property you do not need to re-create a new matrix with the same value but determine the axis to prevent recurring work problems.
 ```
 layer_1 = tf.keras.layers.Normalization(mean=3., variance=2.)( image_resized )
 layer_2 = tf.keras.layers.Normalization(mean=4., variance=6.)( layer_1 )
