@@ -29,6 +29,8 @@ final_layer = tf.squeeze( final_layer, axis=0, name="squeeze" )
 ![alt text](https://github.com/jkaewprateep/TF_filters_locations-2/blob/main/waterworld.gif)
 
 ### Object location from TF_filters_locations ###
+🐐💬 Its objective is to come close as fast as it active response, there is nowhere to locate 100% exact initial but continuing is more accuracy. Filters create multiple sizes of objects with different shapes and sizes but it is continuity located by the same acceleration.
+
 ![alt text](https://github.com/jkaewprateep/TF_filters_locations-2/blob/main/Simple%20Filter%20locations.gif)
 
 ## Files and directory ##
