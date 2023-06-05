@@ -1,7 +1,14 @@
 # TF_filters_locations-2
 🧸💬 Tensorflow for object locators, filters and convolution is enough for tracking objects from the plain background and we plan to add DCT ( discrete frequency transform for colours image ). This method is a filters method and different than our previous method detects an object by convolution and scaling or scanning the image for object similarity.
 
-
+#### 🐑💬 The true skills of AI is problem transformation, this is parameters for snakes games. ####
+```
+coeff_01 = ball_y_value - player_y_value
+coeff_02 = ball_x_value - player_x_value
+coeff_03 = 5
+coeff_04 = player_x_value - ball_x_value
+coeff_05 = player_y_value - ball_y_value
+```
 
 ### Snake games ###
 ![alt text](https://github.com/jkaewprateep/TF_filters_locations-2/blob/main/Snakes.gif)<br>
