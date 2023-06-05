@@ -23,9 +23,11 @@ final_layer = tf.squeeze( final_layer, axis=0, name="squeeze" )
 ```
 
 ### Snake games ###
+🥺💬 You can find projectiles of the objects and you can accelerate but you cannot deaccelerate, VST. 
 ![alt text](https://github.com/jkaewprateep/TF_filters_locations-2/blob/main/Snakes.gif)<br>
 
 ### Water World games ###
+🧸💬 There are rules and speed to catch up, it is not only one way to accelerate speed by projection in time.
 ![alt text](https://github.com/jkaewprateep/TF_filters_locations-2/blob/main/waterworld.gif)
 
 ### Object location from TF_filters_locations ###
