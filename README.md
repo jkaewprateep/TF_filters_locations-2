@@ -10,6 +10,18 @@ coeff_04 = player_x_value - ball_x_value
 coeff_05 = player_y_value - ball_y_value
 ```
 
+#### 🐑💬 Filters - location on plain background ####
+```
+layer_1 = tf.keras.layers.Normalization(mean=3., variance=2.)( image_resized )
+layer_2 = tf.keras.layers.Normalization(mean=4., variance=6.)( layer_1 )
+
+image = tf.expand_dims( image_resized, axis=0, name="expand dimension" )
+layer_3 = tf.keras.layers.Conv2D(32, (3, 3), activation='relu')( image )
+
+final_layer = tf.keras.layers.Conv2D(1, (2, 1), activation='relu')( layer_3 )
+final_layer = tf.squeeze( final_layer, axis=0, name="squeeze" )
+```
+
 ### Snake games ###
 ![alt text](https://github.com/jkaewprateep/TF_filters_locations-2/blob/main/Snakes.gif)<br>
 
